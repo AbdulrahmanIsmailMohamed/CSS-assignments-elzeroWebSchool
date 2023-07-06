@@ -2,6 +2,8 @@ div {
     height: 400px;
     width: 400px;
     background-image: url("css-assignment-5-8.png");
+    background-color: rgb(220, 234, 247);
+    margin-bottom: 50px;
 }
 
 .assign-4-shape-1 {
@@ -11,8 +13,18 @@ div {
 
 .assign-4-shape-2 {
     background-repeat: repeat-y;
-    width: 20%;
-    backgroundi-size: 0 0 0 100px;
     background-position: right;
-    
+    background-size: 80%;
+}
+
+.assign-4-shape-3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 80%;
+}
+
+.assign-4-shape-4 {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
 }
