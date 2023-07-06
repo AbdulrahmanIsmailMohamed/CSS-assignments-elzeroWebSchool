@@ -1,0 +1,12 @@
+div {
+    background-color: brown;
+    max-width: 400px;
+    width: fit-content;
+    padding: 20px;
+    margin: 20px;
+    height: 30px;
+}
+
+.four {
+    overflow: hidden;
+}
