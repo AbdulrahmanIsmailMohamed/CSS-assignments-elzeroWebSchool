@@ -1,0 +1,27 @@
+h1 {
+    text-align: right;
+    direction: rtl;
+    background-color: rgb(204, 211, 211);
+}
+
+div img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    /*it specialy of image*/
+}
+
+div {
+    display: inline;
+}
+
+a {
+    color: white;
+    background: black;
+    display: inline-block;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: full-width;
+}

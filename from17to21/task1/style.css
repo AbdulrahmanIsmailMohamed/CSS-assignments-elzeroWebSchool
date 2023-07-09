@@ -1,0 +1,13 @@
+h1 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px red, 2px 2px 0px blue, 3px 3px 0px #642b02;
+    background-color: #2fac89;
+    width: fit-content;
+    padding: 8px;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: center;
+}

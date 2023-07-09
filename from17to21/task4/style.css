@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(5, 134, 91);
+    padding: 50px;
+    border-bottom: 15px solid rgb(2, 77, 52);
+    word-spacing: 3px;
+}
+
+div {
+    margin: auto;
+    margin-top: 20%;
+    width: fit-content;
+}
