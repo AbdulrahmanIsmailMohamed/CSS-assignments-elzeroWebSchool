@@ -1,0 +1,9 @@
+p {
+    font-family: 'Open Sans', sans-serif;
+    background-color: chocolate;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+    font-size: xx-large;
+    border: 5px solid black;
+}
