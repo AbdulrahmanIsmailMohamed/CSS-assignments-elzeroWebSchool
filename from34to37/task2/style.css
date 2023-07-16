@@ -1,0 +1,23 @@
+div {
+    margin: 0 auto 0 auto;
+    background-color: #ccc;
+    text-align: center;
+    padding: 18px;
+    width: fit-content;
+    position: relative;
+    padding-left: 0;
+}
+
+div::first-letter {
+    color: #ccc;
+}
+
+div::before {
+    content: "1";
+    background-color: red;
+    color: white;
+    padding: 8px;
+    left: -13px;
+    position: absolute;
+    top: 18%;
+}

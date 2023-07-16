@@ -1,0 +1,15 @@
+div {
+    width: 400px;
+    height: 60px;
+    margin: 0 auto 0 auto;
+    background-color: #ccc;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+div:empty {
+    background-color: red;
+    margin: 20px auto 20px auto;
+}
