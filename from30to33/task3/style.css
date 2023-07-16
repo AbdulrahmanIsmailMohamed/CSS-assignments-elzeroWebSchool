@@ -1,0 +1,28 @@
+ul {
+    width: 400px;
+}
+
+ul li {
+    background-color: #ccc;
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.html ol li {
+    list-style-type: unset;
+    background-color: white;
+}
+
+.css ol li {
+    list-style-type: lower-roman;
+    background-color: white;
+}
+
+.js ul li {
+    list-style-type: unset;
+    background-color: white;
+    margin-right: 90px;
+    margin-left: -40px;
+    list-style-position: inside;
+}

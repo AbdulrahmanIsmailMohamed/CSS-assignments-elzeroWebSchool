@@ -1,0 +1,43 @@
+div {
+    width: 400px;
+    text-align: center;
+    background-color: rgb(155, 153, 153);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    position: relative;
+    border: 2px solid black;
+    border-color: red blue;
+}
+
+div span {
+    background-color: blue;
+    padding: 8px;
+    position: absolute;
+    width: 20px;
+    color: white;
+}
+
+.top-left {
+    top: -10px;
+    left: -18px;
+    border-right: 2px solid red;
+}
+
+.top-right {
+    top: -10px;
+    right: -18px;
+    border-left: 2px solid red;
+}
+
+.bottom-left {
+    bottom: -12px;
+    left: -18px;
+    border-right: 2px solid red;
+}
+
+.bottom-right {
+    bottom: -15px;
+    right: -18px;
+    border-left: 2px solid red;
+}

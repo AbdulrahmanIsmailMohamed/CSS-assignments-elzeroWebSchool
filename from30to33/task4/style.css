@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 700px;
+    margin: 0px auto 0px auto;
+}
+
+th {
+    background-color: rgb(59, 58, 58);
+    padding: 10px;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+td {
+    padding: 10px;
+    background-color: #ccc;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+}
+
+.view,
+.delete {
+    border: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.view {
+    background-color: green;
+}
+
+.delete {
+    background-color: red;
+}
