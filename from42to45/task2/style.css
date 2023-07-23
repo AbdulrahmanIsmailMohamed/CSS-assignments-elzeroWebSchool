@@ -1,0 +1,15 @@
+div {
+    background-color: #ccc !important;
+    color: #ccc !important;
+    border: none !important;
+    font-size: 1px !important;
+}
+
+div::before {
+    content: "Elzero";
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
