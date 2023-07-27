@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(48, 47, 47);
+}
+
+div {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.elzero {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.orange {
+    background-color: rgb(241, 68, 15);
+    left: 15px;
+}
+
+.blue {
+    background-color: rgb(15, 113, 241);
+    left: 0px;
+}

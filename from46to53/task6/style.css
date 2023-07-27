@@ -1,0 +1,71 @@
+:root {
+    --mainColor: #ccc
+}
+
+.header {
+    display: flex;
+}
+
+.page {
+    background-color: rgb(224, 220, 220);
+    width: 100%;
+    height: 590px;
+}
+
+.header{
+    display: flex;
+}
+
+.logo {
+    background-color: var(--mainColor);
+    margin-right: 0px;
+    padding: 10px 20px;
+    width: 5%;
+    margin: 10px;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    background-color: var(--mainColor, #ccc);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin: 10px;
+}
+
+ul li{
+    padding: 10px;
+}
+
+.main-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+
+.content{
+    height: 450px;
+    background-color: var(--mainColor);
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.sidebar{
+    height: 450px;
+    background-color: var(--mainColor);
+    width: 30%;
+    padding: 10px;
+}
+
+.footer{
+    background-color: var(--mainColor);
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
