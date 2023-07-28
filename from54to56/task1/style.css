@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(56, 56, 56);
+}
+
+div {
+    width: 600px;
+    text-align: center;
+    background-color: #ccc;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-left: 10px solid #b8380a;
+    border-right: 10px solid #5c098b;
+    position: relative;
+}
+
+div::first-letter {
+    color: red;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 103.1%;
+    background-color: red;
+    height: 10px;
+    background-image: linear-gradient(to right,
+            #b8380a 20%,
+            #3d77e4 20%,
+            #3d77e4 40%,
+            #22a755 40%,
+            #22a755 60%,
+            #e90f95 60%,
+            #e90f95 80%,
+            #5c098b 80%);
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    width: 103.3%;
+    height: 10px;
+    background-color: red;
+    bottom: -10px;
+    left: -10px;
+    background-image: linear-gradient(to right,
+            #b8380a 20%,
+            #3d77e4 20%,
+            #3d77e4 40%,
+            #22a755 40%,
+            #22a755 60%,
+            #e90f95 60%,
+            #e90f95 80%,
+            #5c098b 80%);
+}
